@@ -1,0 +1,7 @@
+streamlit==1.32.2
+chromadb==0.4.24
+langchain==0.1.13
+langchain-google-vertexai==0.1.2
+pypdf==4.1.0
+protobuf==4.25.3
+langchain-community==0.0.29
