@@ -1,0 +1,20 @@
+Directory Tree
+
+├── LICENSE
+├── README.md
+├── app.py
+├── authentication.json
+├── directory.txt
+├── model
+│   ├── __init__.py
+│   ├── database
+│   │   └── chroma_collection_creator.py
+│   ├── llm_quiz_generator
+│   │   ├── quiz_generator.py
+│   │   └── quiz_manager.py
+│   └── pdf_processing
+│       ├── document_processor.py
+│       └── embedding_client.py
+└── requirements.txt
+
+5 directories, 12 files
