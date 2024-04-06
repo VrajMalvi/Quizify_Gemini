@@ -28,6 +28,8 @@ To install the necessary dependencies, you can use the provided `requirements.tx
 pip install -r requirements.txt
 ```
 
+Additionally, for this project, you need to install Google Cloud CLI. You can follow the instructions provided [here.](https://cloud.google.com/sdk/docs/install)
+
 ## Usage
 
 - Clone the repository to your local machine.
