@@ -28,7 +28,39 @@ To install the necessary dependencies, you can use the provided `requirements.tx
 pip install -r requirements.txt
 ```
 
-Additionally, for this project, you need to install Google Cloud CLI. You can follow the instructions provided [here.](https://cloud.google.com/sdk/docs/install)
+**Additional Setup for Google Cloud:**
+
+1. Install Google Cloud CLI:
+
+- Follow the instructions to install the Google Cloud SDK for your operating system: https://cloud.google.com/sdk/docs/install
+
+2. Initialize Google Cloud CLI:
+
+- Open a terminal and run:
+
+```bash
+gcloud init
+```
+
+- Select your preferred account and project when prompted.
+
+3. Create and Set Up a Service Account:
+
+- In the Google Cloud console, create a new service account with appropriate permissions for your project.
+
+- Download the service account key as a JSON file.
+
+- Set the GOOGLE_APPLICATION_CREDENTIALS environment variable to the path of this JSON file:
+
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS='Path where you stored the key.json'
+```
+
+- If you prefer a one-time authentication for the current session, use:
+
+    ```bash
+    gcloud auth login
+    ```
 
 ## Usage
 
